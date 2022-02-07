@@ -1,7 +1,7 @@
 import colorModeModule from '@nuxtjs/color-mode'
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
   env: {
     contactFormFunctionRoute: process.env.CONTACT_FORM_FUNCTION_API_ROUTE
   },
